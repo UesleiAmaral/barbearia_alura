@@ -7,13 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barbearia Alura</title>
 
+    <link rel="stylesheet" href="./style/reset.css">
+
+    <link rel="stylesheet" href="./style/style_home.css">
     <link rel="stylesheet" href="./style/style.css">
 </head>
 
 <body>
     <header>
-        <h1 class="titulo_principal">Barbearia Alura</h1>
+        <div class="caixa">
+            <h1><img src="./img/img_produtos/logo.png" alt="logo_barbearia"></h1>
+            <nav>
+                <ul>
+                    <li class="item"><a href="index.html">Home</a></li>
+                    <li class="item"><a href="produtos.html">Produtos</a></li>
+                    <li class="item"><a href="contatos.html">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+    
     <img id="banner" src="./img/banner.jpg" alt="banner">
     <div class="principal">
 
@@ -28,7 +41,7 @@
 
     <div class="beneficios">
         <h3 class="texto_centralizado">Benefícios</h3>
-        <ul>
+        <ul class="itens_beneficios">
             <li class="itens">atendimento aos Clientes</li>
             <li class="itens">Espaço Diferenciado</li>
             <li class="itens">Localização</li>
@@ -36,6 +49,10 @@
         </ul>
         <img class="imagem_beneficios" src="./img/beneficios.jpg" alt="beneficios">
     </div>
+    <footer>
+        <img src="./img/img_produtos/logo-branco.png" alt="logo_footer">
+        <p class="footer_ricopyght">&copy; Copyright Barbearia Alura - 2021</p>
+    </footer>
 
 </body>
 
