@@ -32,27 +32,9 @@ p {
 em strong{
     color: #ff0000;
 }
-.itens{
-    font-style: italic;
-}
 
 .beneficios{
     padding: 20px;
-
-
 }
-
-.itens_beneficios {
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right:15% ;
-
-}
-
-.imagem_beneficios{
-    width: 50%;
-}
-
 
 
